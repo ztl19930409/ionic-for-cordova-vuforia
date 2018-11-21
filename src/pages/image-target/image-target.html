@@ -1,0 +1,21 @@
+<ion-content>
+  <button class="close-btn" ion-button (tap)="stopVuforia()">
+    <ion-icon name="close"></ion-icon>
+  </button>
+  <div class="bottom-div">
+    <ion-grid style="padding:0;">
+      <ion-row>
+        <ion-col center col-4>
+          <span style="background:#fff;" *ngIf="isFind">{{findName}}</span>
+        </ion-col>
+        <ion-col col-4>
+          <img src="./assets/imgs/stones.png" />
+        </ion-col>
+        <ion-col col-4>
+          <img src="./assets/imgs/chips.png" />
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+

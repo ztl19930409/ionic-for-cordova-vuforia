@@ -1,0 +1,13 @@
+<ion-content>
+  <button class="close-btn" ion-button (tap)="stopVuforia()">
+    <ion-icon name="close"></ion-icon>
+  </button>
+  <div class="camera">
+    <button class="camera-btn" ion-button (tap)="getUserDefinedTarget()">
+      <ion-icon name="camera"></ion-icon>
+    </button>
+    <button class="cancle-btn" (tap)="removeUserDefinedTarget()">
+      cancle
+    </button>
+  </div>
+</ion-content>
